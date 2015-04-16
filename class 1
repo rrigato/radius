@@ -1,7 +1,5 @@
 #include <iostream>
-
-
-
+//This program calculates the statistics of a circle
 class Circle
 {
 		private:
@@ -62,9 +60,8 @@ int main()
 	std::cout << "The radius is " << circl_obj.getRadius() << std::endl;
 	std::cout << "The circumferance of the circle is " << circl_obj.getCircumferance() << std::endl;
 	std::cout << "The diameter of the circle is " << circl_obj.getDiameter() << std::endl;
-	std::cout << "The area of the cirle is " << circl_obj.getArea() << std::endl;
+	std::cout << "The area of the circle is " << circl_obj.getArea() << std::endl;
 	std::cin.get();
 	std::cin.get();
 	return 0;
 }
-
